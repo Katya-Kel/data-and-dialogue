@@ -113,48 +113,64 @@ History of medical physics:
 Timeline:
 
 1895- Wilhelm Röntgen discovers X-Ray
+
 X-Rays are invisible radiation waves that pass through the body during medical imaging to create images of bones and organs. This was the start of medical imaging.
 
 1896- First medical use of X-rays
+
 Doctors begin using x-rays to detect broken bones and to find any foreign objects (such as bullets.)
 
 1898- Marie and Pierre Curie discover radium and polonium
+
 These newly discovered radioactive elements later led to the development of radiation therapy. Radiation therapy is controlled radiation to help battle cancer.
 (In a future post we will discuss more of Marie Curie's contributions to science and her importance as a woman in STEM.)
 
 1901- First Nobel Prize in Physics awarded to Röntgen
+
 Granted for his discovery of the X-ray.
 
 1913- William D. Coolidge invents the Coolidge tube.
+
 Allowed for a more safe and accurate medical image.
 
 1950s- Growth of Clinical Medical Physics
+
 Medical physicists become an official role in major hospitals, making their mark in diagnostic imaging and radiation therapy.
 
 1971- First CT scan by Godfrey Hounsfield
+
 CT, short for Computed Tomography, is a combination of X-rays and computers to create a 3D image of the body.
 
 1979- Hounsfield is awarded Nobel Prize
+
 Granted for his development of CT scans.
 
 1980s- MRI becomes widely used
+
 MRI, short for Magnetic Resonance Imaging, uses a big strong magnet and radio waves to make detailed images of softer tissues, like the brain.
 
 1990s- Digital imaging and CAD
+
 CAD, or Computer-Aided Diagnosis, uses computer algorithms to help radiologists analyze medical images. This is the start of computers playing a bigger role in medical images.
 
 2000s- Image-guided radiation therapy (IGRT)
+
 A combination of radiation treatment of cancers and imaging, more accurate targeting of tumors.
 
 2010s- Rise of AI and Machine Learning in Medical Physics
+
 Machine learning is basically the process of computers learning patterns from large amounts of data so they can make better predictions during diagnosis. During this period AI begins helping in image analysis and assisting radiologists in treatment planning.
 
 2020s- Development in personalized medicine and AI for Diagnosis
+
 Medical physicists collaborate with data scientists to help create a more personal treatment for people with help from a larger base of medical data.
 
 
 
+
+
 Sources:
+
 https://college.mayo.edu/academics/explore-health-care-careers/careers-a-z/medical-physicist
 https://medicalphysics.duke.edu/about/what-is-medical-physics/
 https://w3.aapm.org/medical_physicist/index.php
