@@ -65,16 +65,22 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-    {% if site.comments.provider and page.comments %}
-      {% if jekyll.environment == 'production' %}
-        {% include comments.html %}
-      {% else %}
-        <p>
-          Comments are configured with provider: <strong>{{ site.comments.provider }}</strong>,
-          but are disabled in non-production environments.
-        </p>
-      {% endif %}
-    {% endif %}
+    <script src="https://giscus.app/client.js"
+        data-repo="Katya-Kel/data-and-dialogue"
+        data-repo-id="R_kgDOPSJ1hw"
+        data-category="Blog Comments"
+        data-category-id="DIC_kwDOPSJ1h84CtjWI"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
   </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
