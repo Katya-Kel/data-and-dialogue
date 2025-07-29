@@ -6,6 +6,7 @@ categories: [medicine]
 tags: [stem, blog, Medical Physics]
 author_profile: true
 read_time: true
+comments: true
 ---
 
 What is medical physics?
