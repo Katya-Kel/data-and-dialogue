@@ -8,22 +8,22 @@ tags: [coding, programming, beginners, education, stem, blog]
 read_time: true
 comments: true
 ---
-What is coding?
+**What is coding?**
 
 Coding is simply people telling computers what to do! Think of it like writing a recipe, but it's written in a way that computers can understand. While recipes or instructions tell you how to cook or build something, code tells computers how to open websites or run games. It’s how all websites and apps run. 
 
 
-Why do we code?
+**Why do we code?**
 
 We code to make computers do things for us! Just like people need tools to build a house, computers need code to build apps. Coding is a problem solver, it can automate tasks, and be used to create anything your heart desires. Every daily action like checking the weather or writing a text are all possible because of coding.
 
 
-Different coding languages: What is each one for?
+**Different coding languages: What is each one for?**
 
-Ranked from Easiest to Hardest to learn.
+  Ranked from Easiest to Hardest to learn.
 
 
-Python:
+*Python:*
 
 Used for: AI, Games, Web Development.
 
@@ -34,7 +34,7 @@ Example:
 print(“Hello, world!”)
 
 
-JavaScript:
+*JavaScript:*
 
 Used for: Making websites interactive, web apps, games.
 
@@ -45,7 +45,7 @@ Example:
 console.log(“Hello, world!”);
 
 
-Ruby:
+*Ruby:*
 	
 Used for: Web development.
 	
@@ -56,7 +56,7 @@ Example:
 puts “Hello, world!”
 
 
-Java:
+*Java:*
 	
 Used for: Business software, Backend systems, Android apps.
 	
@@ -71,7 +71,7 @@ publics class Main {
 }
 
 
-C-Sharp(C#):
+*C-Sharp(C#):*
 	
 Used for: Games, Websites, Windows apps.
 	
@@ -87,7 +87,7 @@ using System;
 	}
 
 
-C++:
+*C++:*
 	
 Used for: High-Performance Programs, Simulations, Game Engines.
 	
@@ -102,7 +102,7 @@ int main() {
 }
 
 
-C:
+*C:*
 	
 Used for: Embedded Systems, Operating Systems.
 	
@@ -117,22 +117,23 @@ int main()  {
 }
 
 
-High School Classes Based on Coding:
+**High School Classes Based on Coding:**
+
 Every High School is different but these are some class names to look out for if you want to get more into programming!
 
-Introductory level classes:
+*Introductory level classes:*
 
 *Intro to Computer Science
 *Foundations of Programming
 	
-Intermediate/Advanced:
+*Intermediate/Advanced:*
  
 *Web Development
 *Game Design & Development
 *AP Computer Science Principles
 *AP Computer Science A
 
-Dual Enrollment/More Specialized:
+*Dual Enrollment/More Specialized:*
 
 *Mobile App Development
 *Cybersecurity
@@ -140,24 +141,29 @@ Dual Enrollment/More Specialized:
 *Data Science
 
 
-Practice and Resources:
+**Practice and Resources:**
 
 Many resources and websites exist out there, this is a little list of some of the most common and places where you could learn and practice more!
 
-Beginner-Friendly:
+*Beginner-Friendly:*
+
 *Scratch - Block code, so it is super simple to learn!
 *Code.org - Hour of Code, full course and beginner lessons!
 *Khan Academy - Introduction to JavaScript with great explanations!
 
-Interactive Coding Practice:
+*Interactive Coding Practice:*
+
 *Codecademy- Python, JavaScript, HTML interactive lessons.
 *Replit- A coding environment that is browser-based. Good for practicing Python and JavaScript.
 	
-Problem Solving and Challenge Sites:
+*Problem Solving and Challenge Sites:*
+
 *HackerRank - Practice problems in lots of different languages
 *LeetCode - Used by professionals and high schoolers alike to prepare for coding based interviews.
 
-Competitions:
+
+**Competitions:**
+
 With most of these having changing deadlines and requirements, I include the names and a link to the website!
 
 *USACO- USA Computing Olympiad (https://usaco.org)
@@ -173,11 +179,11 @@ With most of these having changing deadlines and requirements, I include the nam
 *Hackathons (https://devpost.com/hackathons)
 
 
-History of Coding:
+**History of Coding:**
 
 A brief history of the most important names and dates in the development of programming.
 
-Timeline:
+*Timeline:*
 
   1843- Ada Lovelace wrote the first ever algorithm.
 
@@ -229,7 +235,7 @@ Python is responsible for most machine learning and AI. Coding is much more acce
 
 
 
-Sources:
+**Sources:**
 https://www.britannica.com/biography/Ada-Lovelace
 https://www.britannica.com/technology/computer-programming-language
 https://www.computer.org/publications/tech-news/insider-membership-news/timeline-of-programming-languages
