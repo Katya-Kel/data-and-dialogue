@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Coding for High Schoolers: A Simple Guide to Different Languages and How to Build Your Skills."
 date: 2025-07-30
 author: "Ekaterina Kelenina"
