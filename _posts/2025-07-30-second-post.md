@@ -24,7 +24,9 @@ Ranked from Easiest to Hardest to learn.
 
 
 Python:
+
 Used for: AI, Games, Web Development.
+
 Why it is easy: Readable like the English language!
 
 Example:
@@ -33,8 +35,10 @@ print(“Hello, world!”)
 
 
 JavaScript:
-	Used for: Making websites interactive, web apps, games.
-	Why it is easy: Runs in browsers, but syntax is a little harder than Python.
+
+Used for: Making websites interactive, web apps, games.
+
+Why it is easy: Runs in browsers, but syntax is a little harder than Python.
 
 Example:
 
@@ -42,19 +46,23 @@ console.log(“Hello, world!”);
 
 
 Ruby:
-	Used for: Web development.
-	Why it is medium: Easy to read, but not popular for beginners.
 	
- Example:
+Used for: Web development.
+	
+Why it is medium: Easy to read, but not popular for beginners.
+	
+Example:
 
 puts “Hello, world!”
 
 
 Java:
-	Used for: Business software, Backend systems, Android apps.
-	Why it is medium: More code is required.
 	
- Example:
+Used for: Business software, Backend systems, Android apps.
+	
+Why it is medium: More code is required.
+	
+Example:
 
 publics class Main {
 	public static void main(String[] argos) {
@@ -64,8 +72,10 @@ publics class Main {
 
 
 C-Sharp(C#):
-	Used for: Games, Websites, Windows apps.
-	Why it is hard: Complex features.
+	
+Used for: Games, Websites, Windows apps.
+	
+Why it is hard: Complex features.
 	
 Example:
 
@@ -78,10 +88,12 @@ using System;
 
 
 C++:
-	Used for: High-Performance Programs, Simulations, Game Engines.
-	Why it is hard: Complex Syntax and Manual Memory.
 	
- Example:
+Used for: High-Performance Programs, Simulations, Game Engines.
+	
+Why it is hard: Complex Syntax and Manual Memory.
+	
+Example:
 
 #include <iostream>
 int main() {
@@ -91,10 +103,12 @@ int main() {
 
 
 C:
-	Used for: Embedded Systems, Operating Systems.
-	Why it is very hard: Low-level control and lots of bugs.
 	
- Example:
+Used for: Embedded Systems, Operating Systems.
+	
+Why it is very hard: Low-level control and lots of bugs.
+	
+Example:
 
 #include <studio.h>
 int main()  {
