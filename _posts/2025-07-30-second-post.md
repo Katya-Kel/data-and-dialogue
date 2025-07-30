@@ -9,11 +9,14 @@ read_time: true
 comments: true
 ---
 What is coding?
+
 Coding is simply people telling computers what to do! Think of it like writing a recipe, but it's written in a way that computers can understand. While recipes or instructions tell you how to cook or build something, code tells computers how to open websites or run games. It’s how all websites and apps run. 
 
 
 Why do we code?
+
 We code to make computers do things for us! Just like people need tools to build a house, computers need code to build apps. Coding is a problem solver, it can automate tasks, and be used to create anything your heart desires. Every daily action like checking the weather or writing a text are all possible because of coding.
+
 
 Different coding languages: What is each one for?
 
