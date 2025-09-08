@@ -1,4 +1,10 @@
-
+main:
+- title: "Home"
+  url: /
+- title: "About"
+  url: /about/
+- title: "Categories"
+  url: /categories/
 - title: "Coding"
   url: /categories/coding/
 - title: "Physics"
