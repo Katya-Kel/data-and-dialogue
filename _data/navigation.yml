@@ -7,12 +7,12 @@ main:
   url: /categories/
   children:
     - title: "Coding"
-    url: /categories/coding/
+      url: /categories/coding/
     - title: "Physics"
-    url: /categories/physics/
+      url: /categories/physics/
     - title: "Medicine"
-    url: /categories/medicine/
+      url: /categories/medicine/
     - title: "Women In Stem"
-    url: /categories/women-in-stem/
+      url: /categories/women-in-stem/
 
 
