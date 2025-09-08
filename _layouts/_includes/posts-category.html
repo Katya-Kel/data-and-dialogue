@@ -1,0 +1,30 @@
+{% comment %}
+  _includes/posts-category.html
+  This file expects:
+    - page.title to be the category name (e.g. "Physics")
+    - page.taxonomy to be 'category' (or 'tag' for tag pages)
+    - OR include.taxonomy may be passed (we do that above)
+{% endcomment %}
+
+{% assign taxonomy = include.taxonomy | default: 'category' %}
+
+{% if taxonomy == 'category' %}
+  {% assign posts = site.categories[page.title] %}
+{% elsif taxonomy == 'tag' %}
+  {% assign posts = site.tags[page.title] %}
+{% else %}
+  {% assign posts = site.categories[page.title] %}
+{% endif %}
+
+{% if posts and posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in posts %}
+      <li class="post-list-item">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-date"> — {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No posts in this category yet.</p>
+{% endif %}
