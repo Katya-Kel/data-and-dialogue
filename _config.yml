@@ -103,13 +103,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Thanks for stopping by. Happy reading!"
   location         : "Florida"
-  #links:
-    - #label: "Website"
-      #icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - #label: "GitHub"
-      ##icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+
 
 
 # Site Footer
