@@ -1,7 +1,7 @@
 ---
 layout: category
 title: "Physics"
-taxonomy: physics
+category: physics
 permalink: /categories/physics/
 entries_layout: list
 ---
