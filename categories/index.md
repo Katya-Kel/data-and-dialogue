@@ -4,9 +4,6 @@ title: "Categories"
 permalink: /categories/
 ---
 
-# Categories
-
-Here are the categories of posts:
 
 - [Coding](/categories/coding/)
 - [Physics](/categories/physics/)
