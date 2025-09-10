@@ -1,7 +1,7 @@
 ---
-layout: archive
+layout: category
 title: "Medicine"
-taxonomy: category
+taxonomy: medicine
 permalink: /categories/medicine/
 entries_layout: list
 ---
