@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Categories
+layout: categories
+title: "Categories"
+permalink: /categories/
 ---
 
 # Categories
