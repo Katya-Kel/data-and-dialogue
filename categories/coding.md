@@ -1,7 +1,7 @@
 ---
-layout: archive
+layout: category
 title: "Coding"
-taxonomy: category
+taxonomy: coding
 permalink: /categories/coding/
 entries_layout: list
 ---
