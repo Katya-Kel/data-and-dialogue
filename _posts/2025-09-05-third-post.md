@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Inspirational Women in STEM"
+title: "Inspirational Women in STEM- Physics"
 date: 2025-09-05
 author: Ekaterina Kelenina
 categories: [women-in-stem]
