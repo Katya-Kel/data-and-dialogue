@@ -10,8 +10,6 @@ read_time: true
 comments: true
 ---
 
-**Introduction:**  
-
 
 Culture and where people are located impacts how fermentation is used  
 
