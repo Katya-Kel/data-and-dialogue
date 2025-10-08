@@ -20,11 +20,11 @@ Blisters are a natural response that is enacted by friction. When skin experienc
  
 **The Phases of Skin Healing** 
 
-	1. Inflammatory Phase: Happens right after injury. The body sends white blood cells to the hurt area to fight infection and remove the damaged cells. Blood Vesselses expand, and this causes redness and swelling. This is why fresh blisters are so sensitive, and the skin is tender. 
+1. Inflammatory Phase: Happens right after injury. The body sends white blood cells to the hurt area to fight infection and remove the damaged cells. Blood Vesselses expand, and this causes redness and swelling. This is why fresh blisters are so sensitive, and the skin is tender. 
 
-	2. Proliferative Phase: During this phase, new skin begins to form. Skin cells called keratinocytes begin to quickly multiply and cover the wound. This happens while fibroblasts produce collagen to strengthen new tissue. The new skin is very delicate and pink, it is slightly raised, and it shows the body is in active repair. 
+2. Proliferative Phase: During this phase, new skin begins to form. Skin cells called keratinocytes begin to quickly multiply and cover the wound. This happens while fibroblasts produce collagen to strengthen new tissue. The new skin is very delicate and pink, it is slightly raised, and it shows the body is in active repair. 
 
-	3. Maturation Phase: In this final phase the collagen fibers reorganize, and the skin begins to strengthen. The surface at this point looks mostly healed but the internal recovery still continues for weeks and sometimes months. The skin slowly becomes resilient and returns to its normal structure while getting flexible and functioning. 
+3. Maturation Phase: In this final phase the collagen fibers reorganize, and the skin begins to strengthen. The surface at this point looks mostly healed but the internal recovery still continues for weeks and sometimes months. The skin slowly becomes resilient and returns to its normal structure while getting flexible and functioning. 
 
 
 **Calluses: The Bodys Armor** 
