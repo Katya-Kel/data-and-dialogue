@@ -9,7 +9,8 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-.special-font {
-  font-family: 'Times New Roman', serif;
-  font-size: 18px;
+.times-font {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px; /* optional, adjust if needed */
+  line-height: 1.6; /* optional for readability */
 }
