@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "The Rise of Illiteracy in Children: How to make sure you Read Above Grade Level."
+title: "The Literacy Crisis: Understanding the Decline and How to Read Beyond Your Grade"
 date: 2025-10-10
 author: Ekaterina Kelenina
 categories: [Reading/Writing]
