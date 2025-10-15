@@ -3,7 +3,7 @@ layout: single
 title: "The Literacy Crisis: Understanding the Decline and How to Read Beyond Your Grade"
 date: 2025-10-10
 author: Ekaterina Kelenina
-categories: [Reading/Writing]
+categories: [Reading / Writing]
 tags: [reading, writing, books, research]
 author_profile: true
 read_time: true
