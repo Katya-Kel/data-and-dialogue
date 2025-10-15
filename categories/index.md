@@ -1,46 +1,46 @@
 ---
-layout: archive
+layout: default
 title: "Categories"
 permalink: /categories/
 ---
 
-{{ content }}
+<h1 style="font-weight:700;">Categories</h1>
 
-<div class="taxonomy__index">
-  {% assign categories = site.categories | sort %}
-  {% for category in categories %}
-    <div class="taxonomy__item">
-      <strong>{{ category[0] | capitalize }}</strong>
-      <span>{{ category[1].size }}</span>
+<div class="category-container">
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <div class="category-box">
+      <span class="category-name">{{ category[0] | capitalize }}</span>
+      <span class="category-count">{{ category[1].size }}</span>
     </div>
   {% endfor %}
 </div>
 
 <style>
-.taxonomy__index {
+.category-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem;
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-.taxonomy__item {
-  background: #f7f7f7;
-  border-radius: 12px;
+.category-box {
+  background-color: #f7f7f7;
+  border-radius: 10px;
   padding: 0.75rem 1rem;
   text-align: center;
-  font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.taxonomy__item strong {
+.category-name {
   display: block;
-  font-size: 1.1em;
+  font-weight: 600;
+  font-size: 1.05em;
   color: #333;
 }
 
-.taxonomy__item span {
-  color: #666;
-  font-weight: 400;
+.category-count {
+  color: #777;
+  font-size: 0.9em;
 }
 </style>
