@@ -1,5 +1,5 @@
 ---
-title: "What is Emphysema"
+title: "The Silent Suffocation: How Emphysema Steals Your Breath"
 date: 2025-07-28
 layout: single
 categories: [Medicine]
