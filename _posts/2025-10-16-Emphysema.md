@@ -45,6 +45,8 @@ Why is early detection important?   
 
 Emphysema causes irreparable lung damage over time, thus early detection is essential. Physicians can reduce its progression, maintain lung function, and enhance quality of life by detecting it early.  
 
+
+
 ●  Early in the disease, lifestyle modifications like stopping smoking and avoiding lung irritants are most successful.   
 
 ●  Early initiation of oxygen therapy, pulmonary rehabilitation, and medication can decrease symptoms and hospital stays.     
@@ -56,7 +58,7 @@ ________________________________________________________________________________
 
 Evolution of Emphysema over time 
 
-            
+
 The COPDGene study, which was a study done over a 10-year period on emphysema progression, controlled for individual CT data, revealed that the greatest decrease in adjusted lung density occurred in those with pre-existing emphysema who continued to smoke. A prospective study of 8431 smokers, both present and former, who had quantitative CT examination for a maximum of 10 years revealed a correlation between the progression of emphysema and initial emphysema grade and smoking status.  
 
 
@@ -64,24 +66,43 @@ ________________________________________________________________________________
 
 COPD(In relation to emphysema) 
 
-    
+
 A collection of lung conditions known as chronic obstructive pulmonary disease (COPD) impede airflow. As a result, breathing becomes more challenging. COPD is the umbrella term for asthmatic bronchitis, emphysema, and chronic bronchitis. According to estimates from the Centers for Disease Control and Prevention (CDC), COPD ranks as the third leading cause of death in the US. By 2030, COPD is expected to rank as the third most common cause of death globally, according to the World Health Organization (WHO). As well as up to 15.7 million Americans reported having COPD as of 2014, according to the CDC. How to Avoid COPD? Physicians have made significant contributions to our understanding of the etiology, diagnosis, and course of COPD over the years. The long-term prognosis for COPD is better the earlier it is diagnosed. COPD cannot be cured, but its symptoms can be controlled, and those who have it can have better lives overall. 
 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Sources:
-https://www.mayoclinic.org/diseases-conditions/emphysema/sympt oms-causes/syc-20355555
+●https://www.mayoclinic.org/diseases-conditions/emphysema/sympt oms-causes/syc-20355555
+
+
 ● https://www.cancer.gov/publications/dictionaries/cancer-terms/de f/low-dose-ct-scan
+
+
 ● Paradigm shift in early detection: Lung cancer screening to comprehensive CT screening
+
+
 ● https://www.healthline.com/health/copd/copd-history#Prevalence-o f-COPD-today
+
+
 ● https://ieeexplore.ieee.org/document/7422082#citations ● https://goldcopd.org/
+
+
 ● Evaluation of emphysema on thoracic low‐dose CTs through attention‐based multiple instance deep learning- Scientific Reports
+
+
 ● https://www.emphysemafoundation.org/index.php/the-lung/copd-em physema
+
+
 ● https://pubs.rsna.org/doi/full/10.1148/radiol.222786
-● https://pro.boehringer-ingelheim.com/us/ipfradiologyrounds/hrct-pr
-imer/comorbid-conditions/emphysema
+
+
+● https://pro.boehringer-ingelheim.com/us/ipfradiologyrounds/hrct-primer/comorbid-conditions/emphysema
+
+
 ● https://www.health.com/emphysema-overview-7111469
+
+
 ● https://nilg.ai/202105/an-introduction-to-multiple-instance-learning/
 
 
