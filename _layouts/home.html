@@ -1,50 +1,52 @@
 ---
-layout: archive
+layout: default
 ---
 
-{% comment %}
-Home layout that prevents duplication by filtering posts
-{% endcomment %}
+<main class="container">
+  <h3 class="archive__subtitle">
+    {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
+  </h3>
 
-<h3 class="archive__subtitle">
-  {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
-</h3>
+  {% assign posts = site.posts | limit: 10 %}
+  
+  <div class="entries-list">
+    {% for post in posts %}
+      <article class="entry">
+        <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
 
-{% assign posts = site.posts %}
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+  <!-- Your Follow.it form here -->
+  <style>
+    .followit--follow-form-container .form-preview {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      margin-top: 30px !important;
+      padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+      max-width: none !important;
+      border-radius: 6px !important;
+      box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+    }
+  </style>
 
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts limit: 10 %}
-    {% include document.html entry=post %}
-  {% endfor %}
-</div>
-
-<!-- Follow.it form -->
-<style>
-  .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    margin-top: 30px !important;
-    padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
-    max-width: none !important;
-    border-radius: 6px !important;
-    box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
-  }
-</style>
-
-<div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
-  <form action="https://api.follow.it/subscription-form/Mi9lT2g0MHozQkc0djdYdG1weUh4citvQy81aUsrbHQ5U0hnUmdUL2JZdDEwT24vUG5oREhEMkVZZXFwVkZlMkxXZkhJQnNiaGZDbzVCZFlldTNqTjhpNjBKYUtFMjh4LzFXS2ZBQ0xZVkVaZ1h4WHVIemxsMXpMNWphbVU2Rzl8NHpKaWRHdFJKWUxYN25ReURFeVJpMkNpcUtEVkdVQ0FycVBoVTRVWncwOD0=/8" method="post">
-    <div class="form-preview" style="background-color: #fff; position: relative; border: 1px solid #ccc;">
-      <div class="preview-heading">
-        <h5 style="text-align: center;">Get Notifications About New Posts:</h5>
+  <div class="followit--follow-form-container">
+    <form action="https://api.follow.it/subscription-form/YOUR_FORM_ID" method="post">
+      <div class="form-preview" style="background-color: #fff; position: relative; border: 1px solid #ccc;">
+        <div class="preview-heading">
+          <h5 style="text-align: center;">Get Notifications About New Posts:</h5>
+        </div>
+        <div class="preview-input-field">
+          <input type="email" name="email" required placeholder="Enter your email" />
+        </div>
+        <div class="preview-submit-button">
+          <button type="submit">Subscribe</button>
+        </div>
       </div>
-      <div class="preview-input-field">
-        <input type="email" name="email" required placeholder="Enter your email" />
-      </div>
-      <div class="preview-submit-button">
-        <button type="submit">Subscribe</button>
-      </div>
-    </div>
-  </form>
-</div>
+    </form>
+  </div>
+</main>
