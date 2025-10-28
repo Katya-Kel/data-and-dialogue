@@ -2,51 +2,106 @@
 layout: default
 ---
 
-<main class="container">
-  <h3 class="archive__subtitle">
-    {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
-  </h3>
-
-  {% assign posts = site.posts | limit: 10 %}
+<div class="home-container" style="max-width: 800px; margin: 0 auto; padding: 20px;">
   
-  <div class="entries-list">
-    {% for post in posts %}
-      <article class="entry">
-        <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-        {% if post.excerpt %}
-          <p>{{ post.excerpt }}</p>
-        {% endif %}
-      </article>
-    {% endfor %}
-  </div>
+  <header class="home-header" style="text-align: center; margin-bottom: 40px;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Syntax & Synapse</h1>
+    <p class="subtitle" style="font-size: 1.2rem; color: #666;">Your tagline here</p>
+  </header>
 
-  <!-- Your Follow.it form here -->
-  <style>
-    .followit--follow-form-container .form-preview {
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      margin-top: 30px !important;
-      padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
-      max-width: none !important;
-      border-radius: 6px !important;
-      box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
-    }
-  </style>
+  <section class="recent-posts">
+    <h2 style="text-align: center; margin-bottom: 30px; font-size: 1.8rem;">Recent Posts</h2>
+    
+    <div class="posts-list">
+      {% for post in site.posts limit: 10 %}
+        <article class="post-card" style="
+          background: white;
+          border-radius: 8px;
+          padding: 25px;
+          margin-bottom: 25px;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          border-left: 4px solid #007cba;
+        ">
+          <h3 style="margin-top: 0; margin-bottom: 10px;">
+            <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333;">
+              {{ post.title }}
+            </a>
+          </h3>
+          
+          <div class="post-meta" style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">
+            {% assign words = post.content | number_of_words %}
+            {% if words < 360 %}
+              {% assign read_time = '1 min read' %}
+            {% else %}
+              {% assign read_time = words | divided_by: 180 | append: ' min read' %}
+            {% endif %}
+            <span class="read-time">{{ read_time }}</span>
+            • 
+            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          </div>
+          
+          {% if post.excerpt %}
+            <p class="post-excerpt" style="color: #555; line-height: 1.6; margin-bottom: 0;">
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </p>
+          {% endif %}
+          
+          <a href="{{ post.url | relative_url }}" class="read-more" style="
+            display: inline-block;
+            margin-top: 15px;
+            color: #007cba;
+            text-decoration: none;
+            font-weight: 500;
+          ">Read more →</a>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-  <div class="followit--follow-form-container">
-    <form action="https://api.follow.it/subscription-form/YOUR_FORM_ID" method="post">
-      <div class="form-preview" style="background-color: #fff; position: relative; border: 1px solid #ccc;">
-        <div class="preview-heading">
-          <h5 style="text-align: center;">Get Notifications About New Posts:</h5>
+  <!-- Follow.it Form -->
+  <div class="newsletter-section" style="margin-top: 50px; padding: 30px; background: #f8f9fa; border-radius: 8px; text-align: center;">
+    <style>
+      .followit--follow-form-container .form-preview {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin-top: 20px !important;
+        padding: 20px !important;
+        max-width: none !important;
+        border-radius: 6px !important;
+        box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+      }
+    </style>
+
+    <div class="followit--follow-form-container">
+      <form action="https://api.follow.it/subscription-form/Mi9lT2g0MHozQkc0djdYdG1weUh4citvQy81aUsrbHQ5U0hnUmdUL2JZdDEwT24vUG5oREhEMkVZZXFwVkZlMkxXZkhJQnNiaGZDbzVCZFlldTNqTjhpNjBKYUtFMjh4LzFXS2ZBQ0xZVkVaZ1h4WHVIemxsMXpMNWphbVU2Rzl8NHpKaWRHdFJKWUxYN25ReURFeVJpMkNpcUtEVkdVQ0FycVBoVTRVWncwOD0=/8" method="post">
+        <div class="form-preview" style="background-color: #fff; position: relative; border: 1px solid #ccc;">
+          <div class="preview-heading">
+            <h5 style="text-align: center; margin-bottom: 15px;">Get Notifications About New Posts:</h5>
+          </div>
+          <div class="preview-input-field" style="margin-bottom: 15px;">
+            <input type="email" name="email" required placeholder="Enter your email" style="
+              padding: 10px;
+              width: 100%;
+              max-width: 300px;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+              font-size: 1rem;
+            " />
+          </div>
+          <div class="preview-submit-button">
+            <button type="submit" style="
+              background: #007cba;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 4px;
+              cursor: pointer;
+              font-size: 1rem;
+            ">Subscribe</button>
+          </div>
         </div>
-        <div class="preview-input-field">
-          <input type="email" name="email" required placeholder="Enter your email" />
-        </div>
-        <div class="preview-submit-button">
-          <button type="submit">Subscribe</button>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
-</main>
+</div>
