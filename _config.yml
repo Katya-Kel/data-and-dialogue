@@ -283,3 +283,6 @@ defaults:
 plugins:
   - jekyll-feed
   # Remove jekyll-optional-front-matter and jekyll-readme-index if listed
+
+  paginate: 5
+paginate_path: "/page:num/"
