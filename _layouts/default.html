@@ -12,6 +12,37 @@
             color: #333;
             background: #f8f9fa;
         }
+        .site-header {
+            background: white;
+            border-bottom: 1px solid #eaeaea;
+            padding: 1rem 0;
+        }
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .site-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        .site-nav {
+            display: flex;
+            gap: 2rem;
+        }
+        .site-nav a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .site-nav a:hover {
+            color: #e91e63;
+        }
         .page-content {
             max-width: 800px;
             margin: 0 auto;
@@ -21,6 +52,17 @@
     </style>
 </head>
 <body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/about' | relative_url }}">About</a>
+                <a href="{{ '/categories' | relative_url }}">Categories</a>
+            </nav>
+        </div>
+    </header>
+    
     <main class="page-content">
         {{ content }}
     </main>
