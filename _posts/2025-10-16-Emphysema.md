@@ -1,6 +1,6 @@
 ---
 title: "The Silent Suffocation: How Emphysema Steals Your Breath"
-date: 2025-07-28
+date: 2025-08-12
 layout: single
 categories: [Medicine]
 tags: [stem, blog, Medical]
