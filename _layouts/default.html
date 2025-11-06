@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -26,9 +27,8 @@
             align-items: center;
         }
         .site-title {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-weight: bold;
-            color: #333;
             text-decoration: none;
         }
         .site-nav {
@@ -36,12 +36,11 @@
             gap: 2rem;
         }
         .site-nav a {
-            color: #666;
             text-decoration: none;
             font-weight: 500;
         }
         .site-nav a:hover {
-            color: #e91e63;
+            opacity: 0.8;
         }
         .page-content {
             max-width: 800px;
@@ -54,11 +53,13 @@
 <body>
     <header class="site-header">
         <div class="nav-container">
-            <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+            <a href="{{ '/' | relative_url }}" class="site-title" style="font-family: 'Great Vibes', cursive; color: #ff8c00; font-size: 1.8rem;">
+                {{ site.title }}
+            </a>
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/about' | relative_url }}">About</a>
-                <a href="{{ '/categories' | relative_url }}">Categories</a>
+                <a href="{{ '/' | relative_url }}" style="font-family: 'Great Vibes', cursive; color: #ff8c00; font-size: 1.2rem;">Home</a>
+                <a href="{{ '/about' | relative_url }}" style="font-family: 'Great Vibes', cursive; color: #ff8c00; font-size: 1.2rem;">About</a>
+                <a href="{{ '/categories' | relative_url }}" style="font-family: 'Great Vibes', cursive; color: #ff8c00; font-size: 1.2rem;">Categories</a>
             </nav>
         </div>
     </header>
