@@ -16,7 +16,7 @@
         .site-header {
             background: white;
             border-bottom: 1px solid #eaeaea;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
         }
         .nav-container {
             max-width: 800px;
@@ -27,17 +27,19 @@
             align-items: center;
         }
         .site-title {
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: bold;
             text-decoration: none;
         }
         .site-nav {
             display: flex;
-            gap: 2rem;
+            gap: 3rem;
         }
         .site-nav a {
             text-decoration: none;
             font-weight: 500;
+            font-size: 1.5rem;
+            padding: 0.5rem 0;
         }
         .site-nav a:hover {
             opacity: 0.8;
@@ -53,13 +55,13 @@
 <body>
     <header class="site-header">
         <div class="nav-container">
-            <a href="{{ '/' | relative_url }}" class="site-title" style="font-family: 'Dancing Script', cursive; color: #ff8c00; font-size: 1.8rem; font-weight: 500;">
+            <a href="{{ '/' | relative_url }}" class="site-title" style="font-family: 'Dancing Script', cursive; color: #ff8c00; font-size: 2rem; font-weight: 500;">
                 {{ site.title }}
             </a>
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}" style="font-family: 'Dancing Script', cursive; color: #e91e63; font-size: 1.3rem; font-weight: 500;">Home</a>
-                <a href="{{ '/about' | relative_url }}" style="font-family: 'Dancing Script', cursive; color: #e91e63; font-size: 1.3rem; font-weight: 500;">About</a>
-                <a href="{{ '/categories' | relative_url }}" style="font-family: 'Dancing Script', cursive; color: #e91e63; font-size: 1.3rem; font-weight: 500;">Categories</a>
+                <a href="{{ '/' | relative_url }}" style="font-family: 'Dancing Script', cursive; color: #e91e63; font-size: 1.5rem; font-weight: 500;">Home</a>
+                <a href="{{ '/about' | relative_url }}" style="font-family: 'Dancing Script', cursive; color: #e91e63; font-size: 1.5rem; font-weight: 500;">About</a>
+                <a href="{{ '/categories' | relative_url }}" style="font-family: 'Dancing Script', cursive; color: #e91e63; font-size: 1.5rem; font-weight: 500;">Categories</a>
             </nav>
         </div>
     </header>
