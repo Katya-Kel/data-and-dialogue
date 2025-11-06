@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The Science of Skin Healing: A Rower’s Guide to Blisters and Calluses"
-date: 2025-10-29
+date: 2025-09-10
 author: Ekaterina Kelenina
 categories: [Medicine]
 tags: [Stem, Medicine, Rowing]
