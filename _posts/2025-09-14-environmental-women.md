@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Influential Women in Environmental Science"
-date: 2025-09-14
+date: 2025-08-14
 author: Ekaterina Kelenina
 categories: [Women-In-Stem]
 tags: [environmental-science, women-in-stem, stem]
