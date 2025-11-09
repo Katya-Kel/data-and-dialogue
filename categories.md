@@ -4,6 +4,18 @@ title: Categories
 permalink: /categories/
 ---
 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&display=swap');
+</style>
+
+<div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    <!-- rest of the code -->
+</div>
+
+
+
+
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
     <header style="text-align: center; margin-bottom: 40px;">
         <h1 style="font-size: 3rem; color: #e91e63; font-family: 'Dancing Script', cursive; font-weight: 700;">Categories</h1>
