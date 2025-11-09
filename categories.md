@@ -4,21 +4,15 @@ title: Categories
 permalink: /categories/
 ---
 
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&display=swap');
 </style>
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
-    <!-- rest of the code -->
-</div>
-
-
-
-
-<div style="max-width: 800px; margin: 0 auto; padding: 20px;">
     <header style="text-align: center; margin-bottom: 40px;">
-        <h1 style="font-size: 3rem; color: #e91e63; font-family: 'Dancing Script', cursive; font-weight: 700;">Categories</h1>
+        <h1 style="font-size: 3rem; color: #e91e63; font-family: 'Dancing Script', cursive; font-weight: 700; margin-bottom: 20px;">
+            Categories
+        </h1>
     </header>
 
    {% for category in site.categories %}
@@ -37,7 +31,7 @@ permalink: /categories/
                 {{ category_name }} ({{ category_posts.size }})
             </h2>
             
-  {% for post in category_posts %}
+   {% for post in category_posts %}
                 <article style="
                     background: white;
                     border-radius: 8px;
@@ -62,13 +56,13 @@ permalink: /categories/
                         <span>{{ post.date | date: "%B %d, %Y" }}</span>
                     </div>
                     
- {% if post.excerpt %}
+   {% if post.excerpt %}
                         <p style="color: #555; line-height: 1.6; margin-bottom: 0;">
                             {{ post.excerpt | strip_html | truncatewords: 30 }}
                         </p>
                     {% endif %}
                     
-<a href="{{ post.url | relative_url }}" style="
+  <a href="{{ post.url | relative_url }}" style="
                         display: inline-block;
                         margin-top: 15px;
                         color: #e91e63;
