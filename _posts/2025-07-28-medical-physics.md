@@ -1,12 +1,9 @@
 ---
 title: "An Introduction to Medical Physics: The Intersection of AI and Healthcare and Why You Should Explore It Further!"
 date: 2025-06-20
-layout: default
+layout: post
 categories: [Medicine]
 tags: [stem, blog, Medical Physics]
-author_profile: true
-read_time: true
-comments: true
 ---
 
 What is medical physics?
