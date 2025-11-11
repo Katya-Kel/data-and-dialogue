@@ -1,7 +1,7 @@
 ---
 title: "The Science of Skin Healing: A Rower’s Guide to Blisters and Calluses"
 date: 2025-09-10
-layout: post
+layout: default
 categories: [Medicine]
 tags: [Stem, Medicine, Rowing]
 ---
