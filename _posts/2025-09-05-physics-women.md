@@ -1,7 +1,7 @@
 ---
 title: "Women Who Changed Physics"
 date: 2025-07-19
-layout: post
+layout: default
 categories: [Women-In-Stem]
 tags: [physics, women-in-stem, stem]
 ---
