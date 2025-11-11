@@ -1,13 +1,9 @@
 ---
-layout: single
 title: "Women Who Changed Physics"
 date: 2025-07-19
-author: Ekaterina Kelenina
+layout: post
 categories: [Women-In-Stem]
 tags: [physics, women-in-stem, stem]
-author_profile: true
-read_time: true
-comments: true
 ---
 A basic introduction to the most prominent women in STEM from each field. Including: physics, environmental science, engineering, chemistry, computer science, mathematics, biology, medicine & health science.
 
