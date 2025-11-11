@@ -3,7 +3,10 @@ layout: default
 ---
 
 <div style="max-width: 800px; margin: 0 auto; padding: 40px 20px;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 20px;">{{ page.title }}</h1>
+    <!-- TITLE IS NOT LINKED ON ARTICLE PAGE -->
+    <h1 style="font-size: 2.5rem; margin-bottom: 20px; color: #333;">
+        {{ page.title }}
+    </h1>
     
     <div style="color: #666; margin-bottom: 30px; font-size: 1.1rem;">
         {{ page.date | date: "%B %d, %Y" }}
