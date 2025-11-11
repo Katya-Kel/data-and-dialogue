@@ -1,7 +1,7 @@
 ---
 title: "Fermentation; Impacts of Chemistry and Culture"
 date: 2025-08-27
-layout: post
+layout: default
 categories: [Chemistry]
 tags: [stem, Chemistry, fermentation]
 ---
