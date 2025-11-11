@@ -1,7 +1,7 @@
 ---
 title: "The Literacy Crisis: Understanding the Decline and How to Read Beyond Your Grade"
 date: 2025-10-16
-layout: post
+layout: default
 categories: [Education & Cognitive Science]
 tags: [reading, writing, books, research]
 ---
