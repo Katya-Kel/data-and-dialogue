@@ -1,7 +1,7 @@
 ---
 title: "Influential Women in Environmental Science"
 date: 2025-08-14
-layout: post
+layout: default
 categories: [Women-In-Stem]
 tags: [environmental-science, women-in-stem, stem]
 ---
