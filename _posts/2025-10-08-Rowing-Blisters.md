@@ -1,13 +1,9 @@
 ---
-layout: single
 title: "The Science of Skin Healing: A Rower’s Guide to Blisters and Calluses"
 date: 2025-09-10
-author: Ekaterina Kelenina
+layout: post
 categories: [Medicine]
 tags: [Stem, Medicine, Rowing]
-author_profile: true
-read_time: true
-comments: true
 ---
 
 As a rower, my hands are constantly exposed to friction and pressure from gripping the oars for hours at a time. Over time, this has led to open blisters, raw skin, and ultimately, thick calluses. I’ve always been interested in the process of skin healing and regeneration. How does skin recover from these injuries? Why do some areas harden into calluses while others remain soft? In this post, I will explore the science behind skin healing, share my personal observations as a rower, and break down the stages of repair, adaptation, and regeneration. 
