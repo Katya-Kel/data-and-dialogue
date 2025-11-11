@@ -1,13 +1,9 @@
 ---
-layout: single
 title: "Influential Women in Environmental Science"
 date: 2025-08-14
-author: Ekaterina Kelenina
+layout: post
 categories: [Women-In-Stem]
 tags: [environmental-science, women-in-stem, stem]
-author_profile: true
-read_time: true
-comments: true
 ---
 
 A basic introduction to the most prominent women in STEM from each field. Including: physics, environmental science, engineering, chemistry, computer science, mathematics, biology, medicine & health science.
