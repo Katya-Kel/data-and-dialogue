@@ -6,6 +6,8 @@ categories: [Education & Cognitive Science]
 tags: [Music Education, Teen Development, Cognitive Skills, Discipline, Math Learning, writing, research]
 ---
 
+# Music, Discipline, and Math: How Playing Shapes the Teen Brain and Why That Matters
+
 When I was a kid, playing piano felt like homework I could never skip. Now I see how that steady practice did more than teach me Chopin and Tchaikovsky, it taught me how to focus, sit through hard work, and break big problems into tiny steps. Scientists have been asking the same question: does music training really help with discipline and with school subjects like math? The short answer is: sometimes, and often in useful ways. Below I’ll explain the major studies, what they actually found, and what it means for teenagers who want to boost discipline and math ability.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
