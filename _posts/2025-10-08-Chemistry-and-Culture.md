@@ -1,13 +1,9 @@
 ---
-layout: single
 title: "Fermentation; Impacts of Chemistry and Culture"
 date: 2025-08-27
-author: Ekaterina Kelenina
+layout: post
 categories: [Chemistry]
 tags: [stem, Chemistry, fermentation]
-author_profile: true
-read_time: true
-comments: true
 ---
 
 
