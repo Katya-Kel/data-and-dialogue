@@ -1,7 +1,7 @@
 ---
 title: "Music, Discipline, and Math: How Playing Shapes the Teen Brain and Why That Matters"
 date: 2025-11-06
-layout: post
+layout: default
 categories: [Education & Cognitive Science]
 tags: [Music Education, Teen Development, Cognitive Skills, Discipline, Math Learning, writing, research]
 ---
