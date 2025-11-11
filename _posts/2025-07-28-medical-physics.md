@@ -6,7 +6,7 @@ categories: [Medicine]
 tags: [stem, blog, Medical Physics]
 ---
 
-# An Introduction to Medical Physics: The Intersection of AI and Healthcare and Why You Should Explore It Further!
+# An Introduction to Medical Physics: The Intersection of AI and Healthcare and Why You Should Explore It Further.
 
 
 What is medical physics?
