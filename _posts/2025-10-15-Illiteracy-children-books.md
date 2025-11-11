@@ -1,13 +1,9 @@
 ---
-layout: single
 title: "The Literacy Crisis: Understanding the Decline and How to Read Beyond Your Grade"
 date: 2025-10-16
-author: Ekaterina Kelenina
+layout: post
 categories: [Education & Cognitive Science]
 tags: [reading, writing, books, research]
-author_profile: true
-read_time: true
-comments: true
 ---
 
 Over the past decade, reading proficiency among U.S. students has slipped in worrying ways. I think it's important to explore the what and why this is happening. Why is it important to read above grade level? Reading texts more complex than one’s current grade promotes growth in vocabulary, background knowledge, inference skills, and syntactic processing. The cognitive drivers are: 
