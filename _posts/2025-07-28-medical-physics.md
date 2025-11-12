@@ -34,19 +34,19 @@ What is medical physics?
   Medical physics is where physics, medicine, and computer science come together. In order to improve diagnosis and treatment, it combines the use of cutting-edge technology like radiation therapy and imaging systems with computer science methods like data analysis and machine learning. In order to improve the accuracy and personalization of healthcare, medical physicists frequently create software, work with algorithms, and oversee big collections of medical data.
 With a base in physics and an emphasis on medical applications, medical physics is a separate science. The technical underpinnings of radiology, radiation oncology, nuclear medicine, and radiation safety are provided by medical physics.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Why is it important?
 
   Reasonable question, let's get into why medical physics is important! The main reason being that it brings a lot more precision to medicine. It has become increasingly important for its usefulness in aiding doctors for diagnosis without cutting into the body. With every dose of radiation and a clear scan there is a Medical Physicist making sure it is safe and accurate. Without this fastly developing field, healthcare would be a much slower and risk drenched process.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 How is it currently being used in research?
 
   Medical Physics is currently playing an important role in research, most notably in fields like cancer treatment and medical imaging. Radiologists and Scientists have come together to use computer models and advanced physics to make radiation therapy more precise. Protecting healthy tissue while simultaneously targeting the tumors. Additionally, AI is coming together with scanning technology like CT scans and MRIs to increase precision in early detection, with the help of doctors staying as supervisor AI is capable of making cancer detection a faster and more precise process. 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Possible paths to get into Medical Physics:
 
@@ -94,7 +94,7 @@ Residency:
 
 You can also do medical research in a non-clinical way! This could be: software development, research, industry. All of the previously listed can be done without board certification. In this case, a degree in computer science or biomedical engineering with medical applications is sufficient. No clinical residency is needed if you are not working directly with patients or hospital equipment.	     
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Career possibilities:
 
@@ -111,7 +111,7 @@ Here is just a few:
 
 *Machine Learning Engineer
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Summer Programs(Highschool & Undergraduate):
 
@@ -133,7 +133,7 @@ Undergraduate:
 
 *Johns Hopkins University (Summer Internship in Medical Physics) - Research in radiation therapy and imaging.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 History of medical physics:
 	If you are anything like me then you love to know the history of how things come to be. The history behind Medical Physics is relatively short but very interesting (to say the least.) So, I have compiled a brief timeline of the evolution of Medical Physics.
@@ -195,7 +195,7 @@ Machine learning is basically the process of computers learning patterns from la
 Medical physicists collaborate with data scientists to help create a more personal treatment for people with help from a larger base of medical data.
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Sources:
