@@ -6,8 +6,6 @@ categories: [Women-In-Stem]
 tags: [physics, women-in-stem, stem]
 ---
 
-# Women Who Changed Physics
-
 A basic introduction to the most prominent women in STEM from each field. Including: physics, environmental science, engineering, chemistry, computer science, mathematics, biology, medicine & health science.
 
 **Physics:**
