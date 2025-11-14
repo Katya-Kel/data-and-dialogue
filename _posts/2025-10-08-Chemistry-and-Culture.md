@@ -6,8 +6,6 @@ categories: [Chemistry]
 tags: [stem, Chemistry, fermentation]
 ---
 
-# Fermentation; Impacts of Chemistry and Culture
-
 Culture and where people are located impacts how fermentation is used and what is created using fermentation. 
 Many parts of Asia have their own unique style of fermentation and a unique cultural significance. Fermentation is a chemical and biological process that has existed for thousands of years. It has evolved with humans and exists in many popular foods eaten today. Most people don't even think about how much fermentation is involved with life. Culture, chemical and biological processes play a huge role in fermentation and its development. These themes will be explored in more detail moving forward. Exploring cultural background and the impact of location on fermentation will be insightful in developing a further understanding of the importance of fermentation today. When food is scarce, especially in northern and colder regions, people turn to fermenting their food which allows it to stay preserved and feeds the people during cold and harsh climate conditions. This has kept more people alive and keeps people from starvation. Fermentation is essential for human health and should be treated with respect. The materials that are required for fermenting cabbage are: cabbage, carrots, a knife, cutting board, cheese cloth, weight, bowl, jars that can be sealed, storage space. Most people try to store their fermented food in a seller, so it is not exposed to sunlight and other harmful environmental factors. 
 
