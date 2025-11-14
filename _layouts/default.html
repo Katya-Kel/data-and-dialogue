@@ -79,12 +79,24 @@
             font-size: 1.1rem;
             margin-bottom: 2rem;
         }
+        /* Article tags at bottom */
+        .article-tags-bottom {
+            margin: 3rem 0 1rem 0;
+            padding: 2rem 0;
+            border-top: 1px solid #eaeaea;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .article-tags-bottom h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #666;
+            text-align: center;
+        }
         .article-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             justify-content: center;
-            margin: 1rem 0 2rem 0;
         }
         .article-tag {
             background: #f8f9fa;
@@ -96,9 +108,8 @@
         }
         /* Related articles */
         .related-articles {
-            margin: 4rem 0 2rem 0;
+            margin: 2rem 0 2rem 0;
             padding-top: 2rem;
-            border-top: 1px solid #eaeaea;
         }
         .related-articles h3 {
             font-size: 1.5rem;
@@ -174,7 +185,7 @@
         <!-- Article Title -->
         <h1>{{ page.title }}</h1>
         
-        <!-- Article Meta -->
+        <!-- Article Meta (only date and read time) -->
         <div class="article-meta">
             <div style="margin-bottom: 0.5rem;">
                 <span>{{ page.date | date: "%B %d, %Y" }}</span>
@@ -186,18 +197,22 @@
                     <span>{{ words | divided_by: 180 }} min read</span>
                 {% endif %}
             </div>
-            
-            {% if page.tags %}
+        </div>
+
+        <!-- Article Content -->
+        {{ content }}
+
+        <!-- Tags at the bottom -->
+        {% if page.tags %}
+        <div class="article-tags-bottom">
+            <h3>Tags</h3>
             <div class="article-tags">
                 {% for tag in page.tags %}
                     <span class="article-tag">{{ tag }}</span>
                 {% endfor %}
             </div>
-            {% endif %}
         </div>
-
-        <!-- Article Content -->
-        {{ content }}
+        {% endif %}
 
         <!-- Related Articles -->
         <div class="related-articles">
