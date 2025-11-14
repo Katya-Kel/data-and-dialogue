@@ -5,26 +5,6 @@ layout: default
 categories: [Medicine]
 tags: [stem, blog, Medical Physics]
 ---
-<style>
-.article-content {
-    font-family: 'Times New Roman', Times, serif !important;
-    font-size: 1.3rem !important;
-    line-height: 1.8 !important;
-    max-width: 700px !important;
-    margin: 0 auto !important;
-}
-
-.article-content h2 {
-    margin-top: 2.5rem !important;
-    margin-bottom: 1.5rem !important;
-}
-
-.article-content p {
-    margin-bottom: 1.5rem !important;
-}
-</style>
-
-<div class="article-content">
 
 # An Introduction to Medical Physics: The Intersection of AI and Healthcare and Why You Should Explore It Further!
 
