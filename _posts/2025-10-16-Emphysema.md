@@ -6,8 +6,6 @@ categories: [Medicine]
 tags: [stem, blog, Medical]
 ---
 
-# The Silent Suffocation: How Emphysema Steals Your Breath
-
 Breathlessness is a symptom of the chronic lung disease Emphysema. The disease gradually weakens the alveoli, which are the lungs' thin walls of air sacs. When you breathe in, these sacs expand and fill with air in healthy lungs. When you exhale, the air is assisted by the elastic sacs. However, emphysema makes it difficult to expel air from your lungs due to damage to the air sacs. This prevents oxygen-rich, fresh air from getting into your lungs. 
 
 **Types of Emphysema:**
