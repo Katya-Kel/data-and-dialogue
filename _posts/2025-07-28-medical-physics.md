@@ -6,9 +6,6 @@ categories: [Medicine]
 tags: [stem, blog, Medical Physics]
 ---
 
-# An Introduction to Medical Physics: The Intersection of AI and Healthcare and Why You Should Explore It Further!
-
-
 What is medical physics?
 
   Medical physics is where physics, medicine, and computer science come together. In order to improve diagnosis and treatment, it combines the use of cutting-edge technology like radiation therapy and imaging systems with computer science methods like data analysis and machine learning. In order to improve the accuracy and personalization of healthcare, medical physicists frequently create software, work with algorithms, and oversee big collections of medical data.
