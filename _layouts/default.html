@@ -8,20 +8,20 @@
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Great+Vibes&display=swap');
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            line-height: 1.6;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.8;
             color: #333;
             background: #f8f9fa;
         }
         .site-header {
             background: white;
             border-bottom: 1px solid #eaeaea;
-            padding: 2rem 0;
+            padding: 2.5rem 0;
         }
         .nav-container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 30px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -45,10 +45,31 @@
             opacity: 0.8;
         }
         .page-content {
-            max-width: 800px;
+            max-width: 700px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 50px 30px;
             min-height: 80vh;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .page-content h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+        .page-content h2 {
+            font-size: 2rem;
+            margin: 2.5rem 0 1.5rem 0;
+        }
+        .page-content p {
+            margin-bottom: 1.5rem;
+        }
+        .page-content ul, .page-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        .page-content li {
+            margin-bottom: 0.8rem;
         }
     </style>
 </head>
@@ -70,7 +91,7 @@
         {{ content }}
     </main>
     
-    <footer style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem;">
+    <footer style="text-align: center; padding: 40px 20px; color: #666; font-size: 0.9rem; margin-top: 4rem;">
         <p>&copy; 2024 - 2025 {{ site.title }}. Powered by Jekyll.</p>
     </footer>
 </body>
