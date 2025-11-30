@@ -7,6 +7,7 @@ tags: [stem, blog, Medical Physics]
 ---
 
 What is medical physics?
+![IMG_1608](https://github.com/user-attachments/assets/907f6b59-4f97-420c-a6c2-55fcf4e54e4d)
 
   Medical physics is where physics, medicine, and computer science come together. In order to improve diagnosis and treatment, it combines the use of cutting-edge technology like radiation therapy and imaging systems with computer science methods like data analysis and machine learning. In order to improve the accuracy and personalization of healthcare, medical physicists frequently create software, work with algorithms, and oversee big collections of medical data.
 With a base in physics and an emphasis on medical applications, medical physics is a separate science. The technical underpinnings of radiology, radiation oncology, nuclear medicine, and radiation safety are provided by medical physics.
