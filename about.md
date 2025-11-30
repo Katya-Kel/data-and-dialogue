@@ -12,8 +12,7 @@ permalink: /about/
             <!-- Profile Picture -->
             <div style="text-align: center;">
               
-                     style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid #e91e63;">
-            </div>
+                     
             
         <!-- Bio Text -->
    <div style="line-height: 1.8;">
