@@ -182,8 +182,10 @@
     </header>
     
     <main class="page-content">
-        <!-- Article Title -->
+        <!-- Article Title - HIDDEN FOR CATEGORIES AND ABOUT PAGES -->
+        {% unless page.url == "/categories/" or page.url == "/about/" %}
         <h1>{{ page.title }}</h1>
+        {% endunless %}
         
         <!-- Article Meta - ONLY SHOW FOR POSTS, NOT PAGES -->
         {% if page.layout == 'post' %}
