@@ -9,13 +9,9 @@ permalink: /categories/
 </style>
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
-    <header style="text-align: center; margin-bottom: 40px;">
-        <h1 style="font-size: 3rem; color: #e91e63; font-family: 'Dancing Script', cursive; font-weight: 700; margin-bottom: 20px;">
-            Categories
-        </h1>
-    </header>
+    <!-- REMOVED THE DUPLICATE HEADER WITH "Categories" -->
 
-  {% for category in site.categories %}
+   {% for category in site.categories %}
         {% assign category_name = category[0] %}
         {% assign category_posts = category[1] %}
         
@@ -65,7 +61,7 @@ permalink: /categories/
                         </p>
                     {% endif %}
                     
-  <a href="{{ post.url | relative_url }}" style="
+   <a href="{{ post.url | relative_url }}" style="
                         display: inline-block;
                         margin-top: 15px;
                         color: #e91e63;
