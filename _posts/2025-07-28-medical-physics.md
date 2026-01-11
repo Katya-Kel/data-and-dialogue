@@ -190,6 +190,3 @@ https://www.britannica.com/science/radiation/Applications-of-radiation
 https://www.britannica.com/science/radiology
 https://www.sdampp.org/documents/SDAMPPStudentGuideToAMedicalPhysicsCareer.pdf
 https://medschool.vanderbilt.edu/medical-physics/paths-of-study/
-
-
-</div>
